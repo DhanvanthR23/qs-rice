@@ -1,4 +1,6 @@
-# qs-test
+# ARCHIVED - moved to my dotfiles(https://github.com/DhanvanthR23/dotfiles)
+
+# qs-rice
 
 A Quickshell (noctalia-qs) shell for Niri. Floating pill bar, with every popup growing out of a pill.
 
@@ -23,13 +25,6 @@ System services: PipeWire, NetworkManager, BlueZ, UPower, power-profiles-daemon.
 Fonts: JetBrainsMono Nerd Font (icons), Google Sans Flex (text).
 
 The shell is the notification server, so no other notification daemon (mako, dunst) may run.
-
-## Run
-
-```fish
-ln -s ~/projects/qs-test ~/.config/quickshell   # once
-qs                                              # or: qs -p ~/projects/qs-test
-```
 
 Niri starts it with `spawn-at-startup "qs"`. For lower memory use `QT_QUICK_BACKEND=software` in niri's `environment` block.
 
